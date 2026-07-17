@@ -22,7 +22,7 @@ Servers act as the bridge between the user and application's data, ensuring that
 
 Databases store organize and manage data that is used by the application. They ensure data is easily accessible and can be manipulated as needed. You might have heard of some of the more popular databases such as:
 
-+ lol
-+ asokda
-+ sadsaokd
-+ 
++ MySQL : A widely used relational database management system known for its reliability and performance.
++ PostgreSQL : An advanced relational database with powerful features like support for complex queries.
++ MongoDB : A NoSQL document database known for its flexibility and rapid iteration possibilities.
++ Redis : An in-memory data structure store, used as a database, cache and message broker.
