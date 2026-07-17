@@ -5,4 +5,9 @@ Backend is actually the server side and the backbone of any web application. Bac
 Backend is mainly responsible for:
 
   1. Database interaction: Handling the storage, retrieval and management of data. This involves querying databases to fetch information or update records based on user interaction or system requirements.
-  2. 
+  2. Server logic: Executing the server-side scripts and managing application workflows. It ensures that the right processes are executed at the right time, based on user action or scheduled tasks.
+  3. Application workflows: Ensuring the smooth operation of the application by managing the logic that underpins the frontend. This includes processing user requests, performing calcuations, and returning the appropriate response.
+
+# Key components of the backend
+
+
