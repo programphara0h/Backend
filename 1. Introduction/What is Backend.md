@@ -10,21 +10,11 @@ Backend is mainly responsible for:
 
 ## Key components of the backend
 
-Each part serves a specific purpose in backend development, contributing to the overall functionality and performance of web applications. Here, we'll break down the essential elements, servers, databases and APIs and see how they work together to power smooth interactions. And also, Backend for Frontend (BFF).Backend for Frontend (BFF) is a design pattern where each frontend (website, mobile app, etc.) gets its own backend. Instead of every frontend talking directly to many backend services, the frontend only talks to its own BFF. The BFF collects the data it needs, combines it, and sends back a response that is optimized for that specific frontend. This makes the application faster, simpler to build, and easier to maintain. However, A BFF doesn't necessarily mean one server or one database. It means the different frontends share the same backend system (which could be one server or many microservices), while each frontend gets its own API.                  Frontends
-         ┌────────┬─────────┐
-         │        │         │
-       Web     Mobile      TV
-         │        │         │
-         ▼        ▼         ▼
-     Web API  Mobile API  TV API   ← BFFs
-          \       |       /
-           \      |      /
-            ▼     ▼     ▼
-          Backend Services
-      (Users, Orders, Payments)
-                 │
-                 ▼
-             Database
+Each part serves a specific purpose in backend development, contributing to the overall functionality and performance of web applications. Here, we'll break down the essential elements, servers, databases and APIs and see how they work together to power smooth interactions. And also, Backend for Frontend (BFF).Backend for Frontend (BFF) is a design pattern where each frontend (website, mobile app, etc.) gets its own backend. Instead of every frontend talking directly to many backend services, the frontend only talks to its own BFF. The BFF collects the data it needs, combines it, and sends back a response that is optimized for that specific frontend. This makes the application faster, simpler to build, and easier to maintain. However, A BFF doesn't necessarily mean one server or one database. It means the different frontends share the same backend system (which could be one server or many microservices), while each frontend gets its own API. There are a few alternatives to BFF, wouldnt hurt to learn all these for the sake of experience n knowledge : 
+1. Monolithic Backend
+2. Shared Backend API
+3. API Gateway (often used with BFF)
+4. GraphQL
 
 ### Servers
 
