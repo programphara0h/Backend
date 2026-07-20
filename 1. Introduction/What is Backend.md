@@ -16,6 +16,7 @@ Each part serves a specific purpose in backend development, contributing to the 
 3. API Gateway (often used with BFF)
 4. GraphQL
 
+
 ### Servers
 
 Servers are crucial in the backend architecture. They manage requests from the client side, process them, and return the appropriate response. This could involve querying a database, executing server-side scripts or intergrating with third-party services.
